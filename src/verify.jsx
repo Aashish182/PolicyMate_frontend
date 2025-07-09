@@ -25,7 +25,7 @@ const VerifyPage = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/verify",
+        "https://policymate-backend.onrender.com/verify",
         form
       );
       console.log("✅ Verifier response:", res.data);

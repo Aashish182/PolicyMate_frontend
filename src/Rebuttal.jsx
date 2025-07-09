@@ -25,7 +25,7 @@ const RebuttalPage = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/rebuttal",
+        "https://policymate-backend.onrender.com/rebuttal",
         form
       );
       setRebuttal(res.data.rebuttal || "No rebuttal generated.");

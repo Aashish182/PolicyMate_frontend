@@ -23,7 +23,7 @@ const SimplifyPage = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/simplify_pdf",
+        "https://policymate-backend.onrender.com/simplify_pdf",
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
